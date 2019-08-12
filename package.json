@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/myungjaeyu/cljs-react-starter/issues"
   },
-  "homepage": "https://github.com/myungjaeyu/cljs-react-starter#readme"
+  "homepage": "https://github.com/myungjaeyu/cljs-react-starter#readme",
+  "devDependencies": {
+    "shadow-cljs": "^2.8.45"
+  }
 }
