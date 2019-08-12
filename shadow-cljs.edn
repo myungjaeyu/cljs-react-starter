@@ -1,0 +1,4 @@
+{:source-paths ["src"]
+ :dev-http {3000 "public"}
+ :builds {:app {:target :browser
+                :modules {:main {:init-fn app.core/main}}}}}
