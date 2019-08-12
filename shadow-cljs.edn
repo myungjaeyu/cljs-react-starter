@@ -1,4 +1,5 @@
 {:source-paths ["src"]
+ :dependencies [[reagent "0.8.1"]]
  :dev-http {3000 "public"}
  :builds {:app {:target :browser
                 :modules {:main {:init-fn app.core/main}}}}}
