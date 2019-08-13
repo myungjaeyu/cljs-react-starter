@@ -1,9 +1,9 @@
 (ns app.core
-   (:require [reagent.core :refer [render]]))
+   (:require [reagent.core :refer [render]]
+             [app.app :refer [app]]))
 
 (defn index []
-  [:div
-   [:h1 "cljs-react-starter"]])
+  (app))
 
 (defn main []
   (render [index] (js/document.getElementById "root")))
