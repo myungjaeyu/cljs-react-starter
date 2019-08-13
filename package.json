@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "shadow-cljs watch app"
+    "dev": "shadow-cljs watch app",
+    "build": "shadow-cljs release app"
   },
   "repository": {
     "type": "git",
