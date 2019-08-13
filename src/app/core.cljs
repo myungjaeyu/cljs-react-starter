@@ -1,7 +1,9 @@
-(ns app.core)
+(ns app.core
+   (:require [reagent.core :refer [render]]))
 
-(def text "u4bi")
+(defn index []
+  [:div
+   [:h1 "cljs-react-starter"]])
 
 (defn main []
-  (js/console.log (js/document.getElementById "root"))
-  (println (str "cljs-react-starter" " " text)))
+  (render [index] (js/document.getElementById "root")))
