@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "shadow-cljs watch app",
+    "dev": "concurrently 'gulp sass:watch' 'shadow-cljs watch app'",
     "build": "shadow-cljs release app"
   },
   "repository": {
